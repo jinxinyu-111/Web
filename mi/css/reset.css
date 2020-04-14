@@ -1,0 +1,32 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+font-size:14px;
+}
+/* 无序列表:none;取消无序有序的小黑点 */
+ul,ol{
+list-style:none;
+}
+/* 文本修饰:
+text-decoration:overline下划线;
+text-decoration:line-through中间划线,删除线
+text-decoration:underline下划线
+text-inident:20px首行文本缩进,取值以px为单位的数值 */
+a{
+text-decoration:none;
+color:#000;
+}
+/* 清除浮动带来的影响 */
+.contents:after{
+content:"";
+display:block;
+clear:both;
+}
+.left{
+float:left;
+}
+.right{
+float:right;
+}
